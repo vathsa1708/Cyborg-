@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#041c32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+    <TextView
+        android:id="@+id/Txt1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Phishing Scams"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monbol"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phishing is one of the main forms of social engineering attacks, and as any social engineering attack it tries to trick unsuspecting users into giving away personal information."
+            android:textSize="14dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/monbol"/>
+    <TextView
+        android:id="@+id/Txt1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="Usually, these cybercrimes are committed by impersonating trusted and popular brands creating fake social media profiles and rogue websites to lure users into them. These sites copy the appearance of the real website to create a sense of security and usually ask to fill forms with personal information to receive some kind of benefit, such as discounts. The most refined of these sites might include malicious scripts that scrap this information out of your browser, without the need of forms."
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/Txt1.3"
+        android:text="This information is later monetized, in the worst case scenario, bank information was stolen. Even if no bank information was given, there are plenty of ways to gain profit from personal information as the Cambridge Analytica scandal proved."
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="From a business perspective these scams are usually trying to impersonate potential providers."
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+        <Button
+            android:id="@+id/Btn1.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/white"
+            android:text="How to stay safe from phishing scams"
+            android:onClick="PscamsSol"
+            android:fontFamily="@font/monbol"/>
+    <Button
+        android:id="@+id/Btn1.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Back"
+        android:backgroundTint="@color/white"
+        android:onClick="Exit1"/>
+        </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

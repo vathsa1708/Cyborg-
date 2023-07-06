@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#041c32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        tools:context="com.example.cyborg.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt4.1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Identity theft:"
+        android:fontFamily="@font/monbol"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Identity theft is closely related to the phishing scams that were discussed earlier. As another computer as a tool cybercrimes, they existed much earlier than the Internet did, but it has certainly improved their reach and ease of execution."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Identity theft exists in two main forms, depending on the information that was stolen. These forms are impersonation as the lesser evil if only personal information or accounts without payment methods saved were stolen. However it can be much worse if credit card information or accounts containing it was stolen since the cybercriminal can make purchases charged to your account."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="This also applies to companies, but on top of it, you should be aware that former employees might be disgruntled and retain access to your accounts."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:text="How to protect against identity theft"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monbol"
+        android:onClick="IdentitySol"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:onClick="Exit4"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monbol"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

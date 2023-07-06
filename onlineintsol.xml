@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#041c32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="How to protect your brand against online intellectual property infringements:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/monbol"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="There are two main ways to protect your intellectual property online. "
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="You can have in-house detection and lawyer teams to search the internet and enforce against infringers. This is a method that requires a lot of time and effort, more suited for small companies that do not have a big problem."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="There’s also software, such as our Brand Protection software and Anti Piracy software that allow you to cost-effectively scale these efforts, if your problem is more than your in-house team can handle."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:text="To help you decide what’s the best approach to these cybercrimes for your company we recently wrote a blog on how to choose the right brand protection solution for your business."
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Back"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/monbol"
+        android:textColor="@color/black"
+        android:onClick="Exit3_1"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

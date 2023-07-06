@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041c32"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+    <TextView
+        android:id="@+id/Txt1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="How to protect against online harassment and cyberstalking:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monbol"/>
+
+    <TextView
+        android:id="@+id/Txt1.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="It is pretty simple to protect against, these cases should be reported to the social media platform if the harassment or stalking is taking place in there and to the competent authorities."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The problem usually is that the victim might be scared to report these cybercrimes in case the criminal steps up their efforts and the harassment becomes worse, especially in the case of the victim knowing the attacker. That’s why it’s so important that the victim’s environment identifies and reacts to this problem."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+    <Button
+        android:id="@+id/Btn1.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/monbol"
+        android:onClick="Exit5_1"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#041c32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Internet Fraud:"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/monbol"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="This type of scam usually asks people to send money promising a much larger sum in the short term. The most famous one is the “Nigerian” scam, also known as the “419” scam which is the number of the nigerian law it violates."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="These scams were already widespread through fax, telephone and traditional mail, but the Internet made them much easier to pull off and more widespread."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Usually the victim receives communication from someone in need of help to move a large sum of money from a foreign country. There are plenty of variations of this scam and more are developed each day."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The victim will be asked to cover a small portion of the cost of moving the money or asset, and will be promised a bigger cut of the benefits when the process is over."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="If the victim falls for it and transfers money, he or she will be told that complications have arisen and that more money will be required. Of course, the victim will not recover anything and this will go on until the scammer feels like there’s nothing to gain from this victim and jump to another one."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Another common fraud is related to fake job listings, where the victim is asked to pay some money to cover the cost of paperwork or pre onboarding formation."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="How to stay safe from Internet fraud"
+        android:textColor="@color/black"
+        android:onClick="InFraudSol"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/monbol"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:fontFamily="@font/monbol"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:onClick="Exit2"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

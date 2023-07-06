@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="#041c32"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+
+    <TextView
+        android:id="@+id/Txt1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="How to stay safe from phishing scams:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monbol"/>
+
+    <TextView
+        android:id="@+id/Txt1.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="1. You should be checking every domain that you get links to and do not provide any kind of information on websites that are not secure, secure websites always display a little padlock at the start of the URL."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="2. Pay attention to social media profile names and domains too, big brands will usually have their social media profiles verified and domain typosquatting is a very common tactic."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Of course, applying common sense is very important too against these scams. If it’s too good to be true, it usually isn’t."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="From a business standpoint, instruct and educate your employees, since ultimately it comes to individuals to stay safe from this type of cybercrimes."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <Button
+        android:id="@+id/Btn1.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Back"
+        android:backgroundTint="@color/white"
+        android:onClick="Exit1_1"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

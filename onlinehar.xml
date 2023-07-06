@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#041c32"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Online harassment and cyberstalking:"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:fontFamily="@font/monbol"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Harassment is sadly very widespread in today’s world, even more so when people feel protected by the anonymity that the internet grants us. One of the fastest growing and most known online harassment in the last years has been revenge porn."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Online harassment and cyberbullying is usually contained within social media in the form of posts, comments or direct messages; but it could also be sent through email. These messages’ main form is mostly defamatory or threatening either against one individual or group."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cyberstalking is another type of harassment that focuses on a single person, which the criminal monitors closely. It is likely that employers, colleagues and familiars of the victim also get contacted both to slander the victim and to try and extract more personal information to deepen the stalking activity. "
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The cyberstalkers will usually resort to doxxing if they want to push the victim harder, which implies releasing the victims personal information for malicious intent, usually in toxic online communities where they hope to find others willing to join the stalking."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="These cybercrimes are extremely damaging to the victim’s mental health, and there have been multiple reports of victims that developed mental illnesses and even ended up committing suicide."
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/monsem"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="How to protect against online harassment and cyberstalking"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monbol"
+        android:backgroundTint="@color/white"
+        android:onClick="OnlineHarSol"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:onClick="Exit5"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:fontFamily="@font/monbol"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

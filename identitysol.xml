@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#041c32"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shape"
+            android:padding="20dp">
+    <TextView
+        android:id="@+id/Txt1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="How to protect against identity theft:"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monbol"/>
+
+    <TextView
+        android:id="@+id/Txt1.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="The easiest and least expensive method of protecting your identity online is to share as little information about yourself as possible."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+
+    <TextView
+        android:id="@+id/Txt1.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="You should also keep an eye on your online accounts activity, and proactively report any suspicious activity as soon as it happens."
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"/>
+    <Button
+        android:id="@+id/Btn1.3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:onClick="Exit4_1"/>
+        </LinearLayout>
+</RelativeLayout>
+</ScrollView>

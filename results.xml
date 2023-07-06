@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#041c39"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context="com.example.cyborg.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Your result:"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/monsem"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Research"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Lidres"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:layout_below="@+id/Research"
+        android:padding="30dp"
+        >
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/resll"
+            >
+
+            <ImageView
+                android:id="@+id/resimage"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="90dp"
+                android:padding="50dp" />
+        </LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textSize="18dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/monsem"
+            android:id="@+id/Res1"/>
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/monsem"
+            android:id="@+id/Res2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/monsem"
+            android:id="@+id/Res3"/>-->
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/resimage"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hello"
+        android:layout_marginTop="60dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResBtn1"
+        android:textColor="@color/black"
+        android:layout_below="@+id/Lidres"
+        android:layout_marginTop="30dp"
+        android:text="Restart"
+        android:backgroundTint="#ffffff"
+        android:fontFamily="@font/monsem"
+        android:textSize="14dp"
+        android:onClick="restartQuiz"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Viewans"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ResBtn1"
+        android:layout_marginTop="30dp"
+        android:text="View Answers"
+        android:backgroundTint="#ffffff"
+        android:fontFamily="@font/monsem"
+        android:textSize="14dp"
+        android:onClick="Answers"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResBtn2"
+        android:textColor="@color/black"
+        android:layout_below="@+id/Viewans"
+        android:layout_marginTop="30dp"
+        android:text="Exit"
+        android:backgroundTint="#ffffff"
+        android:fontFamily="@font/monsem"
+        android:textSize="14dp"
+        android:onClick="exitQuiz"/>
+</RelativeLayout>
